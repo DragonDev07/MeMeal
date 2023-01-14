@@ -19,7 +19,7 @@
 </br>
 
 ### Usage
-
+To use the website, visit "https://dragondev07.github.io/MeMeal/src/index.html" and enter your restrictions!
 
 ### Inspiration
 My inspiration for this project was not knowing what to eat for lunch when I was thinking about what project to make for this Hackathon.
@@ -28,7 +28,7 @@ My inspiration for this project was not knowing what to eat for lunch when I was
 At the moment, MeMeal will take an input from the user on the website, then identify the keywords about dietary restrictions, to then make a call to the Edamam API and get a recipe which is then fed into OpenAI's text-davinci-003 model as inspiration to generate a recipe.
 
 ### Build Process
-The main backend for MeMeal is written in python, which I decided was the best option even though its not very fast as I would be easily able to request data from Enamam (Recipe API) and also would be able to access openai's library to make calls to their models very easily too.
+The main backend for MeMeal is written in python, which I decided was the best option even though its not very fast as I would be easily able to request data from Enamam (Recipe API) and also would be able to access openai's library to make calls to their models very easily too. The backend is also currently deployed on Deta.sh
 
 ### Challenges
 The biggest challenge that I faced during the hacking time was working on the frontend, and how to get that to connect to the backend which is written in python.
