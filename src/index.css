@@ -1,0 +1,64 @@
+/* Set the background color for the entire page */
+body {
+    background-color: #1e1e2e;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'JetBrainsMono NF', sans-serif;
+}
+  
+/* Style the main container for the page */
+#main-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #1e1e2e;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+  
+/* Style the heading for the page */
+h1, h2, p{
+    text-align: center;
+    color: #cdd6f4;
+}
+
+ul {
+    color: #cdd6f4;
+}
+  
+/* Style the form elements */
+form {
+    margin: 20px 0;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #45475a;
+    border-radius: 4px;
+}
+  
+input[type="submit"] {
+    background-color: #585b70;
+    color: #cdd6f4;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #b4befe;
+}
+
+/* Style the output container */
+#output {
+    padding: 20px;
+    background-color: #89b4fa;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+}

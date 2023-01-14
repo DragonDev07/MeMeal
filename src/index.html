@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MeMeal</title>
+    <script src="recipe_generator.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body>
+    <img src="" alt="MeMeal Logo">
+    <p>Please enter your dietary restrictions and allergies in a humanlike format, but with the keywords shown below</p>
+    <p>Example: "I want to eat a soup and I am vegan and have a peanut allergy"</p>
+    <form onsubmit="generate_recipe(); return false;">
+      <input type="text" id="user_input" placeholder="e.g. gluten-free, peanut-allergy">
+      <input type="submit" value="Submit">
+    </form>
+    <br>
+    <div id="output"></div>
+    <div id="options">
+        <h1>Keywords</h1>
+        <h2>Dietary restrictions</h2>
+        <ul>
+            <li>alcohol-cocktail</li>
+            <li>alcohol-free</li>
+            <li>celery-free</li>
+            <li>crustacean-free</li>
+            <li>dairy-free</li>
+            <li>DASH</li>
+            <li>egg-free</li>
+            <li>fish-free</li>
+            <li>fodmap-free</li>
+            <li>gluten-free</li>
+            <li>immuno-supportive</li>
+            <li>keto-friendly</li>
+            <li>kidney-friendly</li>
+            <li>kosher</li>
+            <li>low-potassium</li>
+            <li>low-sugar</li>
+            <li>lupine-free</li>
+            <li>Mediterranean</li>
+            <li>mollusk-free</li>
+            <li>mustard-free</li>
+            <li>no-oil-added</li>
+            <li>paleo</li>
+            <li>peanut-free</li>
+            <li>pescatarian</li>
+            <li>pork-free</li>
+            <li>red-meat-free</li>
+            <li>sesame-free</li>
+            <li>shellfish-free</li>
+            <li>soy-free</li>
+            <li>sugar-conscious</li>
+            <li>sulfite-free</li>
+            <li>tree-nut-free</li>
+            <li>vegan</li>
+            <li>vegetarian</li>
+            <li>wheat-free</li>
+        </ul>
+        <h2>Allergies</h2>
+        <ul>
+            <li>peanut</li>
+            <li>tree nut</li>
+            <li>shellfish</li>
+            <li>fish</li>
+            <li>dairy</li>
+            <li>egg</li>
+            <li>soy</li>
+            <li>wheat</li>
+        </ul>
+        <h2>Queries</h2>
+        <ul>
+          <li>chicken</li>
+          <li>beef</li>
+          <li>pork</li>
+          <li>fish</li>
+          <li>vegetables</li>
+          <li>soup</li>
+        </ul>
+    </div>
+  </body>
+</html>
