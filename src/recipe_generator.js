@@ -2,7 +2,7 @@
 
 function generate_recipe() {
     var user_input = document.getElementById("user_input").value;
-    fetch('https://memeal.teowelton.repl.co/generate_recipe', {
+    fetch('https://eny8r5.deta.dev/generate_recipe', {
       method: 'POST',
       body: JSON.stringify({'user_input': user_input}),
       headers: {
@@ -12,4 +12,4 @@ function generate_recipe() {
     .then(data => {
       document.getElementById("output").innerHTML = data;
     });
-  }  
+  }

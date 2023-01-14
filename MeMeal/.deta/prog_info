@@ -1,0 +1,1 @@
+{"id":"fa23ddd8-c307-46ec-963b-5bb22449a402","space":48103,"runtime":"python3.9","name":"MeMeal","path":"eny8r5","project":"b0fqp600","account":"144798365827","region":"us-east-1","deps":["Flask","requests","python-dotenv","flask-cors","openai"],"envs":null,"public":true,"log_level":"debug","cron":""}
