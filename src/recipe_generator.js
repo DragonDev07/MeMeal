@@ -2,7 +2,7 @@
 
 function generate_recipe() {
     var user_input = document.getElementById("user_input").value;
-    fetch('http://localhost:5000/generate_recipe', {
+    fetch('https://memeal.teowelton.repl.co/generate_recipe', {
       method: 'POST',
       body: JSON.stringify({'user_input': user_input}),
       headers: {
