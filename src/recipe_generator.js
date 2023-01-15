@@ -2,7 +2,7 @@
 
 function generate_recipe() {
     var user_input = document.getElementById("user_input").value;
-    fetch('https://eny8r5.deta.dev/generate_recipe', {
+    fetch('http://localhost:5000/generate_recipe', {
       method: 'POST',
       body: JSON.stringify({'user_input': user_input}),
       headers: {
